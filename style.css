@@ -1,0 +1,201 @@
+*{
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+.logo{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+.logo h1{
+    background-color: darkgreen;
+}
+.banner {
+width: 100%;
+}
+.banner img{
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        padding-bottom: 20px;
+        margin: 0 0;
+}
+.welcome{
+    padding-bottom: 20px;
+    font-size: 18px;
+    width: 90%;
+   background-color: darkgreen;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: white;
+   
+}
+.health{
+    display: flex;
+    padding-bottom: 30px;
+}
+.health img{
+    width: 400px;
+    height: 400px;
+    
+}
+.para{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.background{
+    padding-bottom: 20px;
+
+}
+.background h2{
+    background-color: darkgreen;
+    color: white;
+}
+.vision{
+    padding-bottom: 30px;
+    width: 50%;
+    background-color: darkgreen;
+    border-radius: 10px;
+    color: white;
+}
+.bod{
+    padding-bottom: 30px;
+    display: flex;
+    gap: 20px;
+    width: 80%;
+}
+.obj{
+    width: 50%;
+    background-color: darkgreen;
+    border-radius: 10px;
+    color: white;
+}
+.obj li{
+    padding: 10px;
+}
+.services{
+    display: flex;
+    width: 80%;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.services img{
+    width: 50%;
+    
+}
+.reason{
+    padding-bottom: 30px;
+}
+form{
+    width: 80%;
+    padding: 10px;
+}
+input{
+    display: block;
+    width: 80%;
+    height: 40px;
+    background-color:rgba(255, 255, 255, 0.647);
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(5, 188, 57);
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+    
+
+.contact{
+    padding: 20px;
+    background-image: url(IMG_3814.AVIF);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+.contact button:hover{
+    color: red;
+}
+.heading h2{
+   background-color: darkgreen;
+   color: white;
+}
+.links a, .links h2{
+padding: 20px;
+text-decoration: none;
+}
+.links{
+    padding: 20px;
+    
+}
+.last{
+    margin: 0 auto;
+}
+.copy{
+    font-size: 20px;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    
+}
+
+    
+nav{
+    font-size: 30px;
+    font-weight: bold;
+    word-spacing: 40px;
+    background-color: darkgreen;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+/*medium screen like tablets*/
+@media (max-width: 992px) {
+  main {
+    flex-direction: column;
+  }
+  
+  article {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 768px) {
+  header {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  article, aside {
+    padding: 5px;
+  }
+}
+
+/* Extra small screens (small phones) */
+@media (max-width: 480px) {
+  header {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 10px;
+  }
+}
